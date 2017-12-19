@@ -15,7 +15,7 @@ public class CFourmi {
   private Color mCouleurDeposee;
   private float mLuminanceCouleurSuivie;
   // objet graphique sur lequel les fourmis peuvent peindre
-  private CPainting mPainting;
+  private static CPainting mPainting;
   // Coordonées de la fourmi
   private int x, y;
   // Proba d'aller a gauche, en face, a droite, de suivre la couleur
